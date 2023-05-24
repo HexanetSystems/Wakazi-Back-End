@@ -49,13 +49,24 @@
                                     <h3>Welcome Back</h3>
                                     <p>New to Wakazi? <a href="{{url('/')}}/register">Sign up</a></p>
 
-                                    <form>
+                                    <form method="POST" action="{{ route('login') }}">
+                                        @csrf
                                         <div class="form-group">
-                                            <input type="email" placeholder="Your Email Address" class="form-control">
+                                            <input type="email" placeholder="Your Email Address" class="form-control" @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}">
+                                            @error('email')
+                                                <span class="invalid-feedback" role="alert">
+                                                    <strong>{{ $message }}</strong>
+                                                </span>
+                                            @enderror
                                         </div>
 
                                         <div class="form-group">
-                                            <input type="password" placeholder="Your Password" class="form-control">
+                                            <input type="password" placeholder="Your Password" class="form-control" @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                                            @error('password')
+                                                <span class="invalid-feedback" role="alert">
+                                                    <strong>{{ $message }}</strong>
+                                                </span>
+                                            @enderror
                                         </div>
 
                                         <button type="submit">Login</button>

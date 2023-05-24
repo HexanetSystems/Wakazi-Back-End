@@ -6,15 +6,7 @@ use Illuminate\Http\Request;
 
 class ClientsController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
+
 
     /**
      * Show the application dashboard.
@@ -23,6 +15,6 @@ class ClientsController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('dashboard.index');
     }
 }

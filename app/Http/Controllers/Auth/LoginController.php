@@ -69,14 +69,16 @@ class LoginController extends Controller
 
         if(auth()->attempt(array('email' => $input['email'], 'password' => $input['password'])))
         {
-            if (auth()->user()->is_admin == 1) {
+            if (auth()->user()->type == 'admin') {
                 return redirect()->route('admin.home');
+            }else if (auth()->user()->type == 'manager') {
+                return redirect()->route('manager.home');
             }else{
-                return redirect()->route('dashboard');
+                return redirect()->route('home');
             }
         }else{
-            Session::flash('error', "email-address or password are wrong.");
-            return redirect()->route('home');
+            return redirect()->route('login')
+                ->with('error','Email-Address And Password Are Wrong.');
         }
 
     }

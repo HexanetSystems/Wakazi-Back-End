@@ -84,8 +84,22 @@
                             <ul class="header-top-menu">
                                 <li><a href="login.html"><i class="bx bxs-user"></i> My Account</a></li>
                                 <li><a href="#"><i class="bx bx-plus-circle"></i> Add Listing</a></li>
-                                <li><a href="register.html"><i class="bx bx-log-in-circle"></i> Register</a></li>
+
+                                @if(Auth::User())
+                                <li><a onclick="event.preventDefault();
+                                    document.getElementById('logout-form').submit();" href="{{ route('logout') }}"><i class="bx bx-log-out"></i> {{ __('Logout') }}</a></li>
+                                @else
+                                <li><a href="{{url('/register')}}"><i class="bx bx-log-in-circle"></i> Register</a></li>
+                                @endif
+                                @if(Auth::User())
+                                <li><a href="{{url('/')}}/login"><i class="bx bx-log-in"></i> Client Area</a></li>
+                                @else
                                 <li><a href="{{url('/')}}/login"><i class="bx bx-log-in"></i> Login</a></li>
+                                @endif
+
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                    @csrf
+                                </form>
                             </ul>
                         </div>
                     </div>

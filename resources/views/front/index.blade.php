@@ -111,7 +111,7 @@
             <div class="col-lg-4">
                 <div class="single-listing-box">
                     <a href="single-listing.html" class="listing-image">
-                        <img src="{{asset('theme/assets/img/listing/img1.jpg')}}" alt="image">
+                        <img src="{{url('/')}}/uploads/images/bicycles-cottonbro-studio-10505932.jpg" alt="image">
                     </a>
 
                     <div class="listing-badge">Open Now</div>
@@ -119,12 +119,12 @@
                     <div class="listing-content">
                         <div class="content">
                             <div class="author">
-                                <img src="{{asset('theme/assets/img/user1.jpg')}}" alt="image">
-                                <span>John Smith</span>
+                                {{-- <img src="{{asset('theme/assets/img/user1.jpg')}}" alt="image"> --}}
+                                <span>Nick Muthumbi</span>
                             </div>
 
-                            <h3><a href="single-listing.html">The Goggi Restaurant</a></h3>
-                            <span class="location"><i class='bx bx-map'></i> 40 Journal Square, NG USA</span>
+                            <h3><a href="single-listing.html">Bicycles Repairs</a></h3>
+                            <span class="location"><i class='bx bx-map'></i> 3571 Riverside Downs, Gitaru Road</span>
 
                             <div class="rating">
                                 <i class='bx bxs-star'></i>
@@ -132,7 +132,7 @@
                                 <i class='bx bxs-star'></i>
                                 <i class='bx bxs-star'></i>
                                 <i class='bx bxs-star'></i>
-                                <span class="rating-count">2 reviews</span>
+                                <span class="rating-count">30 reviews</span>
                             </div>
                         </div>
 
@@ -144,74 +144,16 @@
                                     <a href="#" data-bs-toggle="tooltip" data-placement="top" title="On the Map"><i class='bx bx-map'></i></a>
                                 </div>
 
-                                <div class="price-level">
-                                    <span data-bs-toggle="tooltip" data-placement="top" title="Ultra Hight">
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                    </span>
-                                </div>
+
 
                                 <div class="listing-category">
                                     <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Category">
-                                        <i class='bx bx-wine'></i>
-                                        Restaurant
+                                        <i class="bx bx-user"></i>
+                                        View Profile
                                     </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="single-listing-box">
-                    <a href="single-listing.html" class="listing-image">
-                        <img src="{{asset('theme/assets/img/listing/img2.jpg')}}" alt="image">
-                    </a>
-
-                    <div class="listing-badge">Open Now</div>
-
-                    <div class="listing-content">
-                        <div class="content">
-                            <div class="author">
-                                <img src="{{asset('theme/assets/img/user2.jpg')}}" alt="image">
-                                <span>Sarah Taylor</span>
-                            </div>
-
-                            <h3><a href="single-listing.html">Shop in Aurora Center</a></h3>
-                            <span class="location"><i class='bx bx-map'></i> 55 County Laois, Ireland</span>
-
-                            <div class="rating">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <span class="rating-count">2 reviews</span>
-                            </div>
-                        </div>
-
-                        <div class="footer-content">
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="listing-option-list">
-                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Find Directions"><i class='bx bx-directions'></i></a>
-                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Save"><i class='bx bx-heart'></i></a>
-                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="On the Map"><i class='bx bx-map'></i></a>
-                                </div>
-
-                                <div class="price-level">
-                                    <span data-bs-toggle="tooltip" data-placement="top" title="Pricey">
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                    </span>
-                                </div>
-
-                                <div class="listing-category">
                                     <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Category">
                                         <i class="bx bx-shopping-bag"></i>
-                                        Shopping
+                                        Shop Products
                                     </a>
                                 </div>
                             </div>
@@ -223,7 +165,61 @@
             <div class="col-lg-4">
                 <div class="single-listing-box">
                     <a href="single-listing.html" class="listing-image">
-                        <img src="{{asset('theme/assets/img/listing/img3.jpg')}}" alt="image">
+                        <img src="{{url('/')}}/uploads/images/furniture.jpg" alt="image">
+                    </a>
+
+                    <div class="listing-badge">Open Now</div>
+
+                    <div class="listing-content">
+                        <div class="content">
+                            <div class="author">
+                                {{-- <img src="{{asset('theme/assets/img/user2.jpg')}}" alt="image"> --}}
+                                <span>Sarah Chebet</span>
+                            </div>
+
+                            <h3><a href="single-listing.html">Elegant Furnitures</a></h3>
+                            <span class="location"><i class='bx bx-map'></i> 2178 Ruaka Lowers, Ruaka</span>
+
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <span class="rating-count">2 reviews</span>
+                            </div>
+                        </div>
+
+                        <div class="footer-content">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="listing-option-list">
+                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Find Directions"><i class='bx bx-directions'></i></a>
+                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Save"><i class='bx bx-heart'></i></a>
+                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="On the Map"><i class='bx bx-map'></i></a>
+                                </div>
+
+
+
+                                <div class="listing-category">
+                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Category">
+                                        <i class="bx bx-user"></i>
+                                        View Profile
+                                    </a>
+                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Category">
+                                        <i class="bx bx-shopping-bag"></i>
+                                        Shop Products
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="single-listing-box">
+                    <a href="single-listing.html" class="listing-image">
+                        <img src="{{url('/')}}/uploads/images/shoe.jpg" alt="image">
                     </a>
 
                     <div class="listing-badge closed">Closed Now</div>
@@ -231,12 +227,12 @@
                     <div class="listing-content">
                         <div class="content">
                             <div class="author">
-                                <img src="{{asset('theme/assets/img/user3.jpg')}}" alt="image">
+                                {{-- <img src="{{asset('theme/assets/img/user3.jpg')}}" alt="image"> --}}
                                 <span>James Andy</span>
                             </div>
 
-                            <h3><a href="single-listing.html">USA Fitness Club</a></h3>
-                            <span class="location"><i class='bx bx-map'></i> Tilt Tilbury, United Kingdom</span>
+                            <h3><a href="single-listing.html">Shoe Makers</a></h3>
+                            <span class="location"><i class='bx bx-map'></i> 6825 Kabete Heights, Lower Kabete</span>
 
                             <div class="rating">
                                 <i class='bx bxs-star'></i>
@@ -244,7 +240,7 @@
                                 <i class='bx bxs-star'></i>
                                 <i class='bx bxs-star'></i>
                                 <i class='bx bxs-star'></i>
-                                <span class="rating-count">2 reviews</span>
+                                <span class="rating-count">12 reviews</span>
                             </div>
                         </div>
 
@@ -256,18 +252,16 @@
                                     <a href="#" data-bs-toggle="tooltip" data-placement="top" title="On the Map"><i class='bx bx-map'></i></a>
                                 </div>
 
-                                <div class="price-level">
-                                    <span data-bs-toggle="tooltip" data-placement="top" title="Moderate">
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                    </span>
-                                </div>
+
 
                                 <div class="listing-category">
                                     <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Category">
-                                        <i class='bx bx-blanket'></i>
-                                        Fitness
+                                        <i class="bx bx-user"></i>
+                                        View Profile
+                                    </a>
+                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Category">
+                                        <i class="bx bx-shopping-bag"></i>
+                                        Shop Products
                                     </a>
                                 </div>
                             </div>
@@ -279,7 +273,7 @@
             <div class="col-lg-4">
                 <div class="single-listing-box">
                     <a href="single-listing.html" class="listing-image">
-                        <img src="{{asset('theme/assets/img/listing/img4.jpg')}}" alt="image">
+                        <img src="{{url('/')}}/uploads/images/car-mechanicpexels-andrea-piacquadio-3806249.jpg" alt="image">
                     </a>
 
                     <div class="listing-badge">Open Now</div>
@@ -287,12 +281,12 @@
                     <div class="listing-content">
                         <div class="content">
                             <div class="author">
-                                <img src="{{asset('theme/assets/img/user4.jpg')}}" alt="image">
-                                <span>David Warner</span>
+                                {{-- <img src="{{asset('theme/assets/img/user4.jpg')}}" alt="image"> --}}
+                                <span>David Magari</span>
                             </div>
 
                             <h3><a href="single-listing.html">The Lounge & Bar</a></h3>
-                            <span class="location"><i class='bx bx-map'></i> The Ritz-Carlton, Hong Kong</span>
+                            <span class="location"><i class='bx bx-map'></i> 2367 Pale Grogon, Nairobi, Kenya</span>
 
                             <div class="rating">
                                 <i class='bx bxs-star'></i>
@@ -312,19 +306,16 @@
                                     <a href="#" data-bs-toggle="tooltip" data-placement="top" title="On the Map"><i class='bx bx-map'></i></a>
                                 </div>
 
-                                <div class="price-level">
-                                    <span data-bs-toggle="tooltip" data-placement="top" title="Ultra Hight">
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                    </span>
-                                </div>
+
 
                                 <div class="listing-category">
                                     <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Category">
-                                        <i class='bx bx-wine'></i>
-                                        Bar
+                                        <i class="bx bx-user"></i>
+                                        View Profile
+                                    </a>
+                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Category">
+                                        <i class="bx bx-shopping-bag"></i>
+                                        Shop Products
                                     </a>
                                 </div>
                             </div>
@@ -336,7 +327,7 @@
             <div class="col-lg-4">
                 <div class="single-listing-box">
                     <a href="single-listing.html" class="listing-image">
-                        <img src="{{asset('theme/assets/img/listing/img1.jpg')}}" alt="image">
+                        <img src="{{url('/')}}/uploads/images/plumber-anıl-karakaya-6419128.jpg" alt="image">
                     </a>
 
                     <div class="listing-badge">Open Now</div>
@@ -344,12 +335,12 @@
                     <div class="listing-content">
                         <div class="content">
                             <div class="author">
-                                <img src="{{asset('theme/assets/img/user1.jpg')}}" alt="image">
+                                {{-- <img src="{{asset('theme/assets/img/user1.jpg')}}" alt="image"> --}}
                                 <span>John Smith</span>
                             </div>
 
-                            <h3><a href="single-listing.html">The Goggi Restaurant</a></h3>
-                            <span class="location"><i class='bx bx-map'></i> 40 Journal Square, NG USA</span>
+                            <h3><a href="single-listing.html">Reliable Plumbing Service</a></h3>
+                            <span class="location"><i class='bx bx-map'></i> 40 Kenyatta Ave, Kimathi Street</span>
 
                             <div class="rating">
                                 <i class='bx bxs-star'></i>
@@ -357,7 +348,7 @@
                                 <i class='bx bxs-star'></i>
                                 <i class='bx bxs-star'></i>
                                 <i class='bx bxs-star'></i>
-                                <span class="rating-count">2 reviews</span>
+                                <span class="rating-count">24 reviews</span>
                             </div>
                         </div>
 
@@ -369,19 +360,16 @@
                                     <a href="#" data-bs-toggle="tooltip" data-placement="top" title="On the Map"><i class='bx bx-map'></i></a>
                                 </div>
 
-                                <div class="price-level">
-                                    <span data-bs-toggle="tooltip" data-placement="top" title="Ultra Hight">
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                    </span>
-                                </div>
+
 
                                 <div class="listing-category">
                                     <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Category">
-                                        <i class='bx bx-wine'></i>
-                                        Restaurant
+                                        <i class="bx bx-user"></i>
+                                        View Profile
+                                    </a>
+                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Category">
+                                        <i class="bx bx-shopping-bag"></i>
+                                        Shop Products
                                     </a>
                                 </div>
                             </div>
@@ -393,7 +381,7 @@
             <div class="col-lg-4">
                 <div class="single-listing-box">
                     <a href="single-listing.html" class="listing-image">
-                        <img src="{{asset('theme/assets/img/listing/img2.jpg')}}" alt="image">
+                        <img src="{{url('/')}}/uploads/images/electrician-emmanuel-ikwuegbu-8005397.jpg" alt="image">
                     </a>
 
                     <div class="listing-badge">Open Now</div>
@@ -401,12 +389,12 @@
                     <div class="listing-content">
                         <div class="content">
                             <div class="author">
-                                <img src="{{asset('theme/assets/img/user2.jpg')}}" alt="image">
-                                <span>Sarah Taylor</span>
+                                {{-- <img src="{{asset('theme/assets/img/user2.jpg')}}" alt="image"> --}}
+                                <span>Gilbert Kinyamozi</span>
                             </div>
 
-                            <h3><a href="single-listing.html">Shop in Aurora Center</a></h3>
-                            <span class="location"><i class='bx bx-map'></i> 55 County Laois, Ireland</span>
+                            <h3><a href="single-listing.html">Electrical Installation Service</a></h3>
+                            <span class="location"><i class='bx bx-map'></i> 55 Riverside , Westlands</span>
 
                             <div class="rating">
                                 <i class='bx bxs-star'></i>
@@ -426,17 +414,16 @@
                                     <a href="#" data-bs-toggle="tooltip" data-placement="top" title="On the Map"><i class='bx bx-map'></i></a>
                                 </div>
 
-                                <div class="price-level">
-                                    <span data-bs-toggle="tooltip" data-placement="top" title="Pricey">
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                    </span>
-                                </div>
+
 
                                 <div class="listing-category">
                                     <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Category">
+                                        <i class="bx bx-user"></i>
+                                        View Profile
+                                    </a>
+                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Category">
                                         <i class="bx bx-shopping-bag"></i>
-                                        Shopping
+                                        Shop Products
                                     </a>
                                 </div>
                             </div>
@@ -451,707 +438,10 @@
 {{--  --}}
 
 <!-- Start Listing Categories Area -->
-@include('front.browse-category')
+{{-- @include('front.browse-category') --}}
 <!-- End Listing Categories Area -->
 
-<!-- Start Listing Area -->
-<section class="listing-area pb-70">
-    <div class="container">
-        <div class="section-title text-start">
-            <span class="sub-title">Discover Listing</span>
-            <h2>Trending Listing</h2>
-            <a href="#" class="section-title-btn">See All <i class='bx bx-chevrons-right'></i></a>
-        </div>
 
-        <div class="row">
-            <div class="col-lg-4 col-sm-12 col-md-6">
-                <div class="single-listing-item">
-                    <div class="listing-image">
-                        <a href="single-listing.html" class="d-block"><img src="{{asset('theme/assets/img/listing/img5.jpg')}}" alt="image"></a>
-
-                        <div class="listing-tag">
-                            <a href="#" class="d-block">Restaurant</a>
-                        </div>
-
-                        <div class="listing-rating">
-                            <div class="review-stars-rated">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                            </div>
-
-                            <div class="rating-total">
-                                5.0 (1 reviews)
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="listing-content">
-                        <div class="listing-author d-flex align-items-center">
-                            <img src="{{asset('theme/assets/img/user1.jpg')}}" class="rounded-circle mr-2" alt="image">
-                            <span>Steven Smith</span>
-                        </div>
-
-                        <h3><a href="single-listing.html" class="d-inline-block">Farmis Garden Hotel & Restaurant</a></h3>
-
-                        <span class="location"><i class="bx bx-map"></i> 40 Journal Square, NG USA</span>
-                    </div>
-
-                    <div class="listing-box-footer">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="price">
-                                <span data-bs-toggle="tooltip" data-placement="top" title="Ultra Hight">
-                                    $1500 - $2000
-                                </span>
-                            </div>
-
-                            <div class="listing-option-list">
-                                <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Find Directions"><i class='bx bx-directions'></i></a>
-                                <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Save"><i class='bx bx-heart'></i></a>
-                                <a href="#" data-bs-toggle="tooltip" data-placement="top" title="On the Map"><i class='bx bx-map'></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="listing-badge">Open!</div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-12 col-md-6">
-                <div class="single-listing-item">
-                    <div class="listing-image">
-                        <a href="single-listing.html" class="d-block"><img src="{{asset('theme/assets/img/listing/img6.jpg')}}" alt="image"></a>
-
-                        <div class="listing-tag">
-                            <a href="#" class="d-block">Shopping</a>
-                        </div>
-
-                        <div class="listing-rating">
-                            <div class="review-stars-rated">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                            </div>
-
-                            <div class="rating-total">
-                                5.0 (1 reviews)
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="listing-content">
-                        <div class="listing-author d-flex align-items-center">
-                            <img src="{{asset('theme/assets/img/user2.jpg')}}" class="rounded-circle mr-2" alt="image">
-                            <span>Sarah Taylor</span>
-                        </div>
-
-                        <h3><a href="single-listing.html" class="d-inline-block">Skyview Shopping Complex Center</a></h3>
-
-                        <span class="location"><i class="bx bx-map"></i> 55 County Laois, Ireland</span>
-                    </div>
-
-                    <div class="listing-box-footer">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="price">
-                                <span data-bs-toggle="tooltip" data-placement="top" title="Pricey">
-                                    $100 - $200
-                                </span>
-                            </div>
-
-                            <div class="listing-option-list">
-                                <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Find Directions"><i class='bx bx-directions'></i></a>
-                                <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Save"><i class='bx bx-heart'></i></a>
-                                <a href="#" data-bs-toggle="tooltip" data-placement="top" title="On the Map"><i class='bx bx-map'></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="listing-badge">Open!</div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-12 col-md-6 offset-lg-0 offset-md-3">
-                <div class="single-listing-item">
-                    <div class="listing-image">
-                        <a href="single-listing.html" class="d-block"><img src="{{asset('theme/assets/img/listing/img7.jpg')}}" alt="image"></a>
-
-                        <div class="listing-tag">
-                            <a href="#" class="d-block">Gym</a>
-                        </div>
-
-                        <div class="listing-rating">
-                            <div class="review-stars-rated">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                            </div>
-
-                            <div class="rating-total">
-                                4.5 (2 reviews)
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="listing-content">
-                        <div class="listing-author d-flex align-items-center">
-                            <img src="{{asset('theme/assets/img/user3.jpg')}}" class="rounded-circle mr-2" alt="image">
-                            <span>James Andy</span>
-                        </div>
-
-                        <h3><a href="single-listing.html" class="d-inline-block">Power House Gym Training Center</a></h3>
-
-                        <span class="location"><i class="bx bx-map"></i> Tilt Tilbury, United Kingdom</span>
-                    </div>
-
-                    <div class="listing-box-footer">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="price">
-                                <span data-bs-toggle="tooltip" data-placement="top" title="Moderate">
-                                    $240 - $250
-                                </span>
-                            </div>
-
-                            <div class="listing-option-list">
-                                <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Find Directions"><i class='bx bx-directions'></i></a>
-                                <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Save"><i class='bx bx-heart'></i></a>
-                                <a href="#" data-bs-toggle="tooltip" data-placement="top" title="On the Map"><i class='bx bx-map'></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="listing-badge">Open!</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Listing Area -->
-
-<!-- Start Listing Area -->
-<section class="listing-area pb-70">
-    <div class="container">
-        <div class="section-title text-start">
-            <span class="sub-title">Discover Listing</span>
-            <h2>Most Popular Listing</h2>
-            <a href="#" class="section-title-btn">See All <i class='bx bx-chevrons-right'></i></a>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4 col-sm-12 col-md-6">
-                <div class="single-listing-item">
-                    <div class="listing-image">
-                        <a href="single-listing.html" class="d-block"><img src="{{asset('theme/assets/img/listing/img8.jpg')}}" alt="image"></a>
-
-                        <div class="listing-tag">
-                            <a href="#" class="d-block">Restaurant</a>
-                        </div>
-
-                        <div class="listing-rating">
-                            <div class="review-stars-rated">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                            </div>
-
-                            <div class="rating-total">
-                                5.0 (1 reviews)
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="listing-content">
-                        <div class="listing-author d-flex align-items-center">
-                            <img src="{{asset('theme/assets/img/user1.jpg')}}" class="rounded-circle mr-2" alt="image">
-                            <span>Steven Smith</span>
-                        </div>
-
-                        <h3><a href="single-listing.html" class="d-inline-block">The Magician Restaurant in USA</a></h3>
-
-                        <span class="location"><i class="bx bx-map"></i> 40 Journal Square, NG USA</span>
-                    </div>
-
-                    <div class="listing-box-footer">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="price">
-                                <span data-bs-toggle="tooltip" data-placement="top" title="Ultra Hight">
-                                    $1500 - $2000
-                                </span>
-                            </div>
-
-                            <div class="listing-option-list">
-                                <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Find Directions"><i class='bx bx-directions'></i></a>
-                                <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Save"><i class='bx bx-heart'></i></a>
-                                <a href="#" data-bs-toggle="tooltip" data-placement="top" title="On the Map"><i class='bx bx-map'></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="listing-badge">Open!</div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-12 col-md-6">
-                <div class="single-listing-item">
-                    <div class="listing-image">
-                        <a href="single-listing.html" class="d-block"><img src="{{asset('theme/assets/img/listing/img9.jpg')}}" alt="image"></a>
-
-                        <div class="listing-tag">
-                            <a href="#" class="d-block">Shopping</a>
-                        </div>
-
-                        <div class="listing-rating">
-                            <div class="review-stars-rated">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                            </div>
-
-                            <div class="rating-total">
-                                5.0 (1 reviews)
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="listing-content">
-                        <div class="listing-author d-flex align-items-center">
-                            <img src="{{asset('theme/assets/img/user2.jpg')}}" class="rounded-circle mr-2" alt="image">
-                            <span>Sarah Taylor</span>
-                        </div>
-
-                        <h3><a href="single-listing.html" class="d-inline-block">New Oriental Shopping Center</a></h3>
-
-                        <span class="location"><i class="bx bx-map"></i> 55 County Laois, Ireland</span>
-                    </div>
-
-                    <div class="listing-box-footer">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="price">
-                                <span data-bs-toggle="tooltip" data-placement="top" title="Pricey">
-                                    $100 - $200
-                                </span>
-                            </div>
-
-                            <div class="listing-option-list">
-                                <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Find Directions"><i class='bx bx-directions'></i></a>
-                                <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Save"><i class='bx bx-heart'></i></a>
-                                <a href="#" data-bs-toggle="tooltip" data-placement="top" title="On the Map"><i class='bx bx-map'></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="listing-badge closed">Closed!</div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-12 col-md-6 offset-lg-0 offset-md-3">
-                <div class="single-listing-item">
-                    <div class="listing-image">
-                        <a href="single-listing.html" class="d-block"><img src="{{asset('theme/assets/img/listing/img10.jpg')}}" alt="image"></a>
-
-                        <div class="listing-tag">
-                            <a href="#" class="d-block">Gym</a>
-                        </div>
-
-                        <div class="listing-rating">
-                            <div class="review-stars-rated">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                            </div>
-
-                            <div class="rating-total">
-                                4.5 (2 reviews)
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="listing-content">
-                        <div class="listing-author d-flex align-items-center">
-                            <img src="{{asset('theme/assets/img/user3.jpg')}}" class="rounded-circle mr-2" alt="image">
-                            <span>James Andy</span>
-                        </div>
-
-                        <h3><a href="single-listing.html" class="d-inline-block">Looks Women's Fitness Center</a></h3>
-
-                        <span class="location"><i class="bx bx-map"></i> Tilt Tilbury, United Kingdom</span>
-                    </div>
-
-                    <div class="listing-box-footer">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="price">
-                                <span data-bs-toggle="tooltip" data-placement="top" title="Moderate">
-                                    $240 - $250
-                                </span>
-                            </div>
-
-                            <div class="listing-option-list">
-                                <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Find Directions"><i class='bx bx-directions'></i></a>
-                                <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Save"><i class='bx bx-heart'></i></a>
-                                <a href="#" data-bs-toggle="tooltip" data-placement="top" title="On the Map"><i class='bx bx-map'></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="listing-badge">Open!</div>
-
-                    <span class="listing-discount">
-                        <span>-15% OFF</span>
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Listing Area -->
-
-<!-- Start Listing Area -->
-<section class="listing-area pb-70">
-    <div class="container">
-        <div class="section-title text-start">
-            <span class="sub-title">Discover Listing</span>
-            <h2>Most Recent Listing</h2>
-            <a href="#" class="section-title-btn">See All <i class='bx bx-chevrons-right'></i></a>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-6 col-sm-12 col-md-12">
-                <div class="single-listing-box">
-                    <a href="single-listing.html" class="listing-image">
-                        <img src="{{asset('theme/assets/img/listing/img1.jpg')}}" alt="image">
-                    </a>
-
-                    <div class="listing-badge">Open Now</div>
-
-                    <div class="listing-content">
-                        <div class="content">
-                            <div class="author">
-                                <img src="{{asset('theme/assets/img/user1.jpg')}}" alt="image">
-                                <span>John Smith</span>
-                            </div>
-
-                            <h3><a href="single-listing.html">The Goggi Restaurant</a></h3>
-                            <span class="location"><i class='bx bx-map'></i> 40 Journal Square, NG USA</span>
-
-                            <div class="rating">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <span class="rating-count">2 reviews</span>
-                            </div>
-                        </div>
-
-                        <div class="footer-content">
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="listing-option-list">
-                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Find Directions"><i class='bx bx-directions'></i></a>
-                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Save"><i class='bx bx-heart'></i></a>
-                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="On the Map"><i class='bx bx-map'></i></a>
-                                </div>
-
-                                <div class="price-level">
-                                    <span data-bs-toggle="tooltip" data-placement="top" title="Ultra Hight">
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                    </span>
-                                </div>
-
-                                <div class="listing-category">
-                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Category">
-                                        <i class='bx bx-wine'></i>
-                                        Restaurant
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-sm-12 col-md-12">
-                <div class="single-listing-box">
-                    <a href="single-listing.html" class="listing-image">
-                        <img src="{{asset('theme/assets/img/listing/img2.jpg')}}" alt="image">
-                    </a>
-
-                    <div class="listing-badge">Open Now</div>
-
-                    <div class="listing-content">
-                        <div class="content">
-                            <div class="author">
-                                <img src="{{asset('theme/assets/img/user2.jpg')}}" alt="image">
-                                <span>Sarah Taylor</span>
-                            </div>
-
-                            <h3><a href="single-listing.html">Shop in Aurora Center</a></h3>
-                            <span class="location"><i class='bx bx-map'></i> 55 County Laois, Ireland</span>
-
-                            <div class="rating">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <span class="rating-count">2 reviews</span>
-                            </div>
-                        </div>
-
-                        <div class="footer-content">
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="listing-option-list">
-                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Find Directions"><i class='bx bx-directions'></i></a>
-                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Save"><i class='bx bx-heart'></i></a>
-                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="On the Map"><i class='bx bx-map'></i></a>
-                                </div>
-
-                                <div class="price-level">
-                                    <span data-bs-toggle="tooltip" data-placement="top" title="Pricey">
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                    </span>
-                                </div>
-
-                                <div class="listing-category">
-                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Category">
-                                        <i class="bx bx-shopping-bag"></i>
-                                        Shopping
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-sm-12 col-md-12">
-                <div class="single-listing-box">
-                    <a href="single-listing.html" class="listing-image">
-                        <img src="{{asset('theme/assets/img/listing/img3.jpg')}}" alt="image">
-                    </a>
-
-                    <div class="listing-badge closed">Closed Now</div>
-
-                    <div class="listing-content">
-                        <div class="content">
-                            <div class="author">
-                                <img src="{{asset('theme/assets/img/user3.jpg')}}" alt="image">
-                                <span>James Andy</span>
-                            </div>
-
-                            <h3><a href="single-listing.html">USA Fitness Club</a></h3>
-                            <span class="location"><i class='bx bx-map'></i> Tilt Tilbury, United Kingdom</span>
-
-                            <div class="rating">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <span class="rating-count">2 reviews</span>
-                            </div>
-                        </div>
-
-                        <div class="footer-content">
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="listing-option-list">
-                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Find Directions"><i class='bx bx-directions'></i></a>
-                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Save"><i class='bx bx-heart'></i></a>
-                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="On the Map"><i class='bx bx-map'></i></a>
-                                </div>
-
-                                <div class="price-level">
-                                    <span data-bs-toggle="tooltip" data-placement="top" title="Moderate">
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                    </span>
-                                </div>
-
-                                <div class="listing-category">
-                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Category">
-                                        <i class='bx bx-blanket'></i>
-                                        Fitness
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-sm-12 col-md-12">
-                <div class="single-listing-box">
-                    <a href="single-listing.html" class="listing-image">
-                        <img src="{{asset('theme/assets/img/listing/img4.jpg')}}" alt="image">
-                    </a>
-
-                    <div class="listing-badge">Open Now</div>
-
-                    <div class="listing-content">
-                        <div class="content">
-                            <div class="author">
-                                <img src="{{asset('theme/assets/img/user4.jpg')}}" alt="image">
-                                <span>David Warner</span>
-                            </div>
-
-                            <h3><a href="single-listing.html">The Lounge & Bar</a></h3>
-                            <span class="location"><i class='bx bx-map'></i> The Ritz-Carlton, Hong Kong</span>
-
-                            <div class="rating">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <span class="rating-count">2 reviews</span>
-                            </div>
-                        </div>
-
-                        <div class="footer-content">
-                            <div class="d-flex align-items-center justify-content-between">
-                                <div class="listing-option-list">
-                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Find Directions"><i class='bx bx-directions'></i></a>
-                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Save"><i class='bx bx-heart'></i></a>
-                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="On the Map"><i class='bx bx-map'></i></a>
-                                </div>
-
-                                <div class="price-level">
-                                    <span data-bs-toggle="tooltip" data-placement="top" title="Ultra Hight">
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                        <strong>$</strong>
-                                    </span>
-                                </div>
-
-                                <div class="listing-category">
-                                    <a href="#" data-bs-toggle="tooltip" data-placement="top" title="Category">
-                                        <i class='bx bx-wine'></i>
-                                        Bar
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Listing Area -->
-
-<!-- Start Destinations Area -->
-<section class="destinations-area pb-70">
-    <div class="container">
-        <div class="section-title text-start">
-            <span class="sub-title">Browse</span>
-            <h2>Popular Destinations</h2>
-            <a href="listing-2.html" class="section-title-btn">See All <i class='bx bx-chevrons-right'></i></a>
-        </div>
-
-        <div class="destinations-items">
-            <div class="col-lg-4 col-sm-12 col-md-12 grid-item">
-                <div class="single-destinations-box">
-                    <img src="{{asset('theme/assets/img/destinations/img1.jpg')}}" alt="image">
-
-                    <div class="content">
-                        <h3>New York</h3>
-                        <div class="rating">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                        </div>
-                    </div>
-
-                    <span class="listing-count">125 Listings</span>
-
-                    <a href="listing-2.html" class="link-btn"></a>
-                </div>
-            </div>
-
-            <div class="col-lg-8 col-sm-12 col-md-12 grid-item">
-                <div class="single-destinations-box">
-                    <img src="{{asset('theme/assets/img/destinations/img2.jpg')}}" alt="image">
-
-                    <div class="content">
-                        <h3>Paris</h3>
-                        <div class="rating">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                        </div>
-                    </div>
-
-                    <span class="listing-count">50 Listings</span>
-
-                    <a href="listing-2.html" class="link-btn"></a>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-12 col-md-12 grid-item">
-                <div class="single-destinations-box">
-                    <img src="{{asset('theme/assets/img/destinations/img3.jpg')}}" alt="image">
-
-                    <div class="content">
-                        <h3>Moscow</h3>
-                        <div class="rating">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                        </div>
-                    </div>
-
-                    <span class="listing-count">15 Listings</span>
-
-                    <a href="listing-2.html" class="link-btn"></a>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-12 col-md-12 grid-item">
-                <div class="single-destinations-box">
-                    <img src="{{asset('theme/assets/img/destinations/img4.jpg')}}" alt="image">
-
-                    <div class="content">
-                        <h3>London</h3>
-                        <div class="rating">
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                            <i class='bx bxs-star'></i>
-                        </div>
-                    </div>
-
-                    <span class="listing-count">78 Listings</span>
-
-                    <a href="listing-2.html" class="link-btn"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Destinations Area -->
 
 <!-- Start Process Area -->
 <section class="process-area ptb-100">
@@ -1226,8 +516,8 @@
 
                 <div class="info">
                     <h3>James Anderson</h3>
-                    <span>Switzerland</span>
-                    <img src="{{asset('theme/assets/img/user1.jpg')}}" class="shadow rounded-circle" alt="image">
+                    <span>Nanyuki</span>
+                    <img src="{{asset('theme/assets/img/3215488.png')}}" class="shadow rounded-circle" alt="image">
                 </div>
             </div>
 
@@ -1236,8 +526,8 @@
 
                 <div class="info">
                     <h3>Lina D'Souza</h3>
-                    <span>Iceland</span>
-                    <img src="{{asset('theme/assets/img/user2.jpg')}}" class="shadow rounded-circle" alt="image">
+                    <span>Magnoria</span>
+                    <img src="{{asset('theme/assets/img/3215488.png')}}" class="shadow rounded-circle" alt="image">
                 </div>
             </div>
 
@@ -1246,8 +536,8 @@
 
                 <div class="info">
                     <h3>David Warner</h3>
-                    <span>Antarctica</span>
-                    <img src="{{asset('theme/assets/img/user3.jpg')}}" class="shadow rounded-circle" alt="image">
+                    <span>Muthaiga</span>
+                    <img src="{{asset('theme/assets/img/3215488.png')}}" class="shadow rounded-circle" alt="image">
                 </div>
             </div>
         </div>
@@ -1308,13 +598,13 @@
                             <img src="{{asset('theme/assets/img/blog/img1.jpg')}}" alt="image">
                         </a>
                         <div class="date">
-                            <span>January 29, 2021</span>
+                            <span>January 29, 2023</span>
                         </div>
                     </div>
 
                     <div class="post-content">
                         <span class="category">Ideas</span>
-                        <h3><a href="single-blog-1.html">Top 50 places to eat in Milwaukee</a></h3>
+                        <h3><a href="single-blog-1.html">Top 50 places to eat in Mirembe</a></h3>
                         <a href="single-blog-1.html" class="details-btn">Read Story</a>
                     </div>
                 </div>
@@ -1327,13 +617,13 @@
                             <img src="{{asset('theme/assets/img/blog/img2.jpg')}}" alt="image">
                         </a>
                         <div class="date">
-                            <span>January 29, 2021</span>
+                            <span>January 24, 2023</span>
                         </div>
                     </div>
 
                     <div class="post-content">
                         <span class="category">Advice</span>
-                        <h3><a href="single-blog-1.html">28 places to visit in the USA</a></h3>
+                        <h3><a href="single-blog-1.html">28 places to visit in the Nakuru</a></h3>
                         <a href="single-blog-1.html" class="details-btn">Read Story</a>
                     </div>
                 </div>

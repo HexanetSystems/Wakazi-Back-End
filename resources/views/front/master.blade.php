@@ -85,7 +85,7 @@
                                 <li><a href="login.html"><i class="bx bxs-user"></i> My Account</a></li>
                                 <li><a href="#"><i class="bx bx-plus-circle"></i> Add Listing</a></li>
                                 <li><a href="register.html"><i class="bx bx-log-in-circle"></i> Register</a></li>
-                                <li><a href="login.html"><i class="bx bx-log-in"></i> Login</a></li>
+                                <li><a href="{{url('/')}}/login"><i class="bx bx-log-in"></i> Login</a></li>
                             </ul>
                         </div>
                     </div>
@@ -153,7 +153,7 @@
 
                                     <li class="nav-item">
                                         <a href="#" class="nav-link active">
-                                            Links 6
+                                            Links
                                         </a>
 
                                     </li>
@@ -296,14 +296,14 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-footer-widget">
-                            <h3>About The Braike</h3>
+                            <h3>About The Wakazi Industries Limited</h3>
 
                             <div class="about-the-store">
-                                <p>Braike.com offers you flexible and responsive listing experience.</p>
+                                <p>Wakazi Industries Limited.com offers you flexible and responsive listing experience.</p>
                                 <ul class="footer-contact-info">
-                                    <li><i class='bx bx-map'></i> <a href="#" target="_blank">Wonder Street, USA, New York</a></li>
-                                    <li><i class='bx bx-phone-call'></i> <a href="tel:+01321654214">+01 321 654 214</a></li>
-                                    <li><i class='bx bx-envelope'></i> <a href="https://templates.envytheme.com/cdn-cgi/l/email-protection#b4dcd1d8d8dbf4d6c6d5dddfd19ad7dbd9"><span class="__cf_email__" data-cfemail="6a020f0606052a08180b03010f44090507">[email&#160;protected]</span></a></li>
+                                    <li><i class='bx bx-map'></i> <a href="#" target="_blank">Banda Street, Nairobi, Kenya</a></li>
+                                    <li><i class='bx bx-phone-call'></i> <a href="tel:+254723014032">+254723014032</a></li>
+                                    <li><i class='bx bx-envelope'></i> <a href="mailto:hello@wakazi.co.ke"><span class="__cf_email__s" data-cfemail="6a020f0606052a08180b03010f44090507">hello@wakazi.co.ke</span></a></li>
                                 </ul>
                             </div>
 
@@ -337,12 +337,12 @@
                             <h3>Customer Support</h3>
 
                             <ul class="customer-support">
-                                <li><a href="login.html">My Account</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
-                                <li><a href="cart.html">Cart</a></li>
-                                <li><a href="faqs.html">FAQ's</a></li>
-                                <li><a href="register.html">Register</a></li>
-                                <li><a href="contact.html">Help & Support</a></li>
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">Checkout</a></li>
+                                <li><a href="#">Cart</a></li>
+                                <li><a href="#">FAQ's</a></li>
+                                <li><a href="#">Register</a></li>
+                                <li><a href="#">Help & Support</a></li>
                             </ul>
                         </div>
                     </div>
@@ -368,7 +368,7 @@
                 <div class="footer-bottom-area">
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-md-6">
-                            <p>Copyright <i class='bx bx-copyright'></i>2021 <a href="#" target="_blank">Braike</a> Designed By <a href="https://envytheme.com/" target="_blank">EnvyTheme</a> | All rights reserved.</p>
+                            <p>Copyright <i class='bx bx-copyright'></i>2021 <a href="#" target="_blank">Wakazi Industries Limited</a> Designed By <a href="#" target="_blank">Wakazi IT</a> | All rights reserved.</p>
                         </div>
 
                         <div class="col-lg-6 col-md-6">

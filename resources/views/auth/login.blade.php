@@ -22,7 +22,7 @@
         <link rel="stylesheet" href="{{asset('theme/assets/css/style.css')}}">
         <link rel="stylesheet" href="{{asset('theme/assets/css/responsive.css')}}">
 
-        <title>Braike - Directory & Listing HTML Template</title>
+        <title>Wakazi Industries Limited - All Your Artisans in One Place</title>
 
         <link rel="icon" type="image/png" href="assets/img/favicon.png">
     </head>
@@ -33,7 +33,7 @@
             <div class="row m-0">
                 <div class="col-lg-6 col-md-12 p-0">
                     <div class="login-image">
-                        <img src="assets/img/login-bg.jpg" alt="image">
+                        <img src="{{url('/')}}/uploads/images/electrician-emmanuel-ikwuegbu-8005397.jpg" alt="image">
                     </div>
                 </div>
 
@@ -43,11 +43,11 @@
                             <div class="d-table-cell">
                                 <div class="login-form">
                                     <div class="logo">
-                                        <a href="index.html"><img src="assets/img/black-logo.png" alt="image"></a>
+                                        <a href="{{url('/')}}"><img style="max-width:200px" src="{{url('/')}}/uploads/WAKAZIMOCKLOGO.png" alt="image"></a>
                                     </div>
 
                                     <h3>Welcome Back</h3>
-                                    <p>New to Braike? <a href="register.html">Sign up</a></p>
+                                    <p>New to Wakazi? <a href="{{url('/')}}/register">Sign up</a></p>
 
                                     <form>
                                         <div class="form-group">
@@ -67,7 +67,7 @@
                                         <div class="connect-with-social">
                                             <button type="submit" class="facebook"><i class='bx bxl-facebook'></i> Connect with Facebook</button>
                                             <button type="submit" class="twitter"><i class='bx bxl-twitter'></i> Connect with Twitter</button>
-                                            <button type="submit" class="gmail"><i class='bx bxl-google'></i> Connect with Gmail</button>
+                                            {{-- <button type="submit" class="gmail"><i class='bx bxl-google'></i> Connect with Gmail</button> --}}
                                         </div>
                                     </form>
                                 </div>

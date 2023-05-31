@@ -110,8 +110,8 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="single-listing-box">
-                    <a href="single-listing.html" class="listing-image">
-                        <img src="{{url('/')}}/uploads/images/bicycles-cottonbro-studio-10505932.jpg" alt="image">
+                    <a href="#" class="listing-image">
+                        <img src="{{url('/')}}/uploads/images/pexels-cottonbro-studio-9710643.jpg" alt="image">
                     </a>
 
                     <div class="listing-badge">Open Now</div>
@@ -123,7 +123,7 @@
                                 <span>Nick Muthumbi</span>
                             </div>
 
-                            <h3><a href="single-listing.html">Bicycles Repairs</a></h3>
+                            <h3><a href="#">Ilesi Clay Pots</a></h3>
                             <span class="location"><i class='bx bx-map'></i> 3571 Riverside Downs, Gitaru Road</span>
 
                             <div class="rating">
@@ -164,8 +164,8 @@
 
             <div class="col-lg-4">
                 <div class="single-listing-box">
-                    <a href="single-listing.html" class="listing-image">
-                        <img src="{{url('/')}}/uploads/images/furniture.jpg" alt="image">
+                    <a href="#" class="listing-image">
+                        <img src="{{url('/')}}/uploads/images/pexels-mali-maeder-63238.jpg" alt="image">
                     </a>
 
                     <div class="listing-badge">Open Now</div>
@@ -174,10 +174,10 @@
                         <div class="content">
                             <div class="author">
                                 {{-- <img src="{{asset('theme/assets/img/user2.jpg')}}" alt="image"> --}}
-                                <span>Sarah Chebet</span>
+                                <span>Arts and Decor</span>
                             </div>
 
-                            <h3><a href="single-listing.html">Elegant Furnitures</a></h3>
+                            <h3><a href="#">Elegant Wallpaper</a></h3>
                             <span class="location"><i class='bx bx-map'></i> 2178 Ruaka Lowers, Ruaka</span>
 
                             <div class="rating">
@@ -218,8 +218,8 @@
 
             <div class="col-lg-4">
                 <div class="single-listing-box">
-                    <a href="single-listing.html" class="listing-image">
-                        <img src="{{url('/')}}/uploads/images/shoe.jpg" alt="image">
+                    <a href="#" class="listing-image">
+                        <img src="{{url('/')}}/uploads/images/pexels-jordan-hyde-1070360.jpg" alt="image">
                     </a>
 
                     <div class="listing-badge closed">Closed Now</div>
@@ -231,7 +231,7 @@
                                 <span>James Andy</span>
                             </div>
 
-                            <h3><a href="single-listing.html">Shoe Makers</a></h3>
+                            <h3><a href="#">Handmade Shoes</a></h3>
                             <span class="location"><i class='bx bx-map'></i> 6825 Kabete Heights, Lower Kabete</span>
 
                             <div class="rating">
@@ -272,7 +272,7 @@
 
             <div class="col-lg-4">
                 <div class="single-listing-box">
-                    <a href="single-listing.html" class="listing-image">
+                    <a href="#" class="listing-image">
                         <img src="{{url('/')}}/uploads/images/car-mechanicpexels-andrea-piacquadio-3806249.jpg" alt="image">
                     </a>
 
@@ -285,7 +285,7 @@
                                 <span>David Magari</span>
                             </div>
 
-                            <h3><a href="single-listing.html">The Lounge & Bar</a></h3>
+                            <h3><a href="#">The Lounge & Bar</a></h3>
                             <span class="location"><i class='bx bx-map'></i> 2367 Pale Grogon, Nairobi, Kenya</span>
 
                             <div class="rating">
@@ -326,7 +326,7 @@
 
             <div class="col-lg-4">
                 <div class="single-listing-box">
-                    <a href="single-listing.html" class="listing-image">
+                    <a href="#" class="listing-image">
                         <img src="{{url('/')}}/uploads/images/plumber-anıl-karakaya-6419128.jpg" alt="image">
                     </a>
 
@@ -339,7 +339,7 @@
                                 <span>John Smith</span>
                             </div>
 
-                            <h3><a href="single-listing.html">Reliable Plumbing Service</a></h3>
+                            <h3><a href="#">Reliable Plumbing Service</a></h3>
                             <span class="location"><i class='bx bx-map'></i> 40 Kenyatta Ave, Kimathi Street</span>
 
                             <div class="rating">
@@ -380,7 +380,7 @@
 
             <div class="col-lg-4">
                 <div class="single-listing-box">
-                    <a href="single-listing.html" class="listing-image">
+                    <a href="#" class="listing-image">
                         <img src="{{url('/')}}/uploads/images/electrician-emmanuel-ikwuegbu-8005397.jpg" alt="image">
                     </a>
 
@@ -393,7 +393,7 @@
                                 <span>Gilbert Kinyamozi</span>
                             </div>
 
-                            <h3><a href="single-listing.html">Electrical Installation Service</a></h3>
+                            <h3><a href="#">Electrical Installation Service</a></h3>
                             <span class="location"><i class='bx bx-map'></i> 55 Riverside , Westlands</span>
 
                             <div class="rating">

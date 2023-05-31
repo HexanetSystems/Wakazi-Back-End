@@ -9,7 +9,7 @@
                 <div class="banner-wrapper-content">
                     <h1 style="color:#ffffff">
                         Find your best
-                        <a style="color:#ffffff" href="#" class="typewrite" data-period="2000" data-type='[ "Carpenters", "Plumbers", "Electrician", "Painters", "Shoe Makers" ]'>
+                        <a style="color:#ffffff" href="#" class="typewrite" data-period="2000" data-type='[ "Handmade Bags", "Crafted Furniture", "Wallpapers", "Handmade Scalpcher", "Arts & Decors", "Clay Pots", "Woven Baskets" ]'>
                             <span class="wrap"></span>
                         </a>
                     {{-- here --}}

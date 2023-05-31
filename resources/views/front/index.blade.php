@@ -102,7 +102,7 @@
     <div class="container">
         <div class="section-title">
             <span class="sub-title">Recent Searches</span>
-            <h2>The Latest Listing</h2>
+            <h2>My Picks</h2>
         </div>
     </div>
 

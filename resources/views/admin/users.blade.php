@@ -23,7 +23,7 @@
             <!--== DASHBOARD INFO ==-->
             @include('admin.dashboard')
             <!--== DASHBOARD INFO ==-->
-         
+
 
             <!--== User Details ==-->
             <div class="sb2-2-3">
@@ -37,7 +37,7 @@
                                 <ul id="dr-users" class="dropdown-content">
                                     <li><a href="{{url('/')}}/admin/addUser">Add New User</a>
                                     </li>
-                                   
+
                                     <li><a href="#!"><i class="material-icons">play_for_work</i>Download</a>
                                     </li>
                                 </ul>
@@ -52,7 +52,7 @@
                                                 <th>User</th>
                                                 <th>Name</th>
                                                 <th>Contacts</th>
-                                            
+
                                                 <th>Country</th>
                                                 <th>Status</th>
                                                 <th>Delete</th>
@@ -67,7 +67,7 @@
                                                 <td><a href="{{url('/')}}/editUser/{{$item->id}}"><span class="list-enq-name">{{$item->name}}</span></a>
                                                 </td>
                                                 <td>{{$item->mobile}}<br>{{$item->email}}<br>{{$item->address}}<br>{{$item->country}}</td>
-                                                
+
                                                 <td>{{$item->country}}</td>
                                                 @if($item->status == 1)
                                                 <td>
@@ -75,18 +75,18 @@
                                                     <br><hr>
 
                                                     <a title="Switch To Inactive" href="{{url('/')}}/admin/switchStatus/{{$item->id}}" class="sb2-2-1-edit text-center"><i class="fa fa-exchange" aria-hidden="true"></i><span>Switch To Inactive</span></a>
-                                                
+
                                                 </td>
                                                 @else
                                                 <td>
                                                     <span class="label label-danger">Inactive</span><br><hr>
 
                                                     <a title="Switch To Active" href="{{url('/')}}/admin/switchStatus/{{$item->id}}" class="sb2-2-1-edit text-center"><i class="fa fa-exchange" aria-hidden="true"></i><span>Switch To Active</span></a>
-                                                
+
                                                 </td>
                                                 @endif
-                                              
-                                             
+
+
                                                 <td>
                                                     <a href="{{url('/')}}/admin/editUser/{{$item->id}}" class="sb2-2-1-edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>
 
@@ -113,17 +113,17 @@
                                                                     type: "POST",
                                                                     data: {id: {{$item->id}}},
                                                                     dataType: "html",
-                                                                    success: function () 
+                                                                    success: function ()
                                                                     {
                                                                         swal("Done!","It was succesfully deleted!","success");
                                                                         setTimeout(function() {
                                                                             window.location.reload();
                                                                         }, 3000);
-                    
+
                                                                     }
                                                                 });
-                                                                // 
-                                                              
+                                                                //
+
                                                             } else {
                                                                 swal("Your imaginary file is safe!");
                                                             }
@@ -139,7 +139,7 @@
                     </div>
                 </div>
             </div>
-  
+
         </div>
 
     </div>

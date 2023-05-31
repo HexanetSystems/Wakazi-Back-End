@@ -39,7 +39,7 @@
                         <div class="col-lg-4 col-md-12">
                             <ul class="header-contact-info">
                                 <li>Wakazi Industries Limited</li>
-                                <li>Call: <a href="tel:+254723014032">+254723014032</a></li>
+                                <li>Call: <a href="tel:+254705027335">+254705027335</a></li>
                                 <li>
                                     <div class="dropdown language-switcher d-inline-block">
                                         <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -132,33 +132,33 @@
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
                                         <a href="#" class="nav-link active">
-                                            Links 1
+                                            About Us
                                         </a>
 
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="#" class="nav-link active">
-                                            Links 2
+                                            Listing
                                         </a>
 
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="#" class="nav-link active">
-                                            Links 3
+                                            How it Works
                                         </a>
 
                                     </li>
 
                                     <li class="nav-item">
                                         <a href="#" class="nav-link active">
-                                            Links 4
+                                            Contact Us
                                         </a>
 
                                     </li>
 
-                                    <li class="nav-item">
+                                    {{-- <li class="nav-item">
                                         <a href="#" class="nav-link active">
                                             Links 5
                                         </a>
@@ -169,8 +169,7 @@
                                         <a href="#" class="nav-link active">
                                             Links
                                         </a>
-
-                                    </li>
+                                    </li> --}}
 
                                     {{-- <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> --}}
                                 </ul>
@@ -316,7 +315,7 @@
                                 <p>Wakazi Industries Limited.com offers you flexible and responsive listing experience.</p>
                                 <ul class="footer-contact-info">
                                     <li><i class='bx bx-map'></i> <a href="#" target="_blank">Banda Street, Nairobi, Kenya</a></li>
-                                    <li><i class='bx bx-phone-call'></i> <a href="tel:+254723014032">+254723014032</a></li>
+                                    <li><i class='bx bx-phone-call'></i> <a href="tel:+254705027335">+254705027335</a></li>
                                     <li><i class='bx bx-envelope'></i> <a href="mailto:hello@wakazi.co.ke"><span class="__cf_email__s" data-cfemail="6a020f0606052a08180b03010f44090507">hello@wakazi.co.ke</span></a></li>
                                 </ul>
                             </div>
@@ -382,7 +381,7 @@
                 <div class="footer-bottom-area">
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-md-6">
-                            <p>Copyright <i class='bx bx-copyright'></i>2021 <a href="#" target="_blank">Wakazi Industries Limited</a> Designed By <a href="#" target="_blank">Wakazi IT</a> | All rights reserved.</p>
+                            <p>Copyright <i class='bx bx-copyright'></i>{{date('Y')}} <a href="#" target="_blank">Wakazi Industries Limited</a> Designed By <a href="#" target="_blank">Wakazi IT</a> | All rights reserved.</p>
                         </div>
 
                         <div class="col-lg-6 col-md-6">
